@@ -24,6 +24,10 @@ h3,h4,h5,h6{
 header {
   text-align: center;
   color: purple;
+  font-size: 40px;
+  background-color: #ccc;
+  margin: 50px;
+  padding: 50px;
 }
 
 footer {
@@ -32,4 +36,24 @@ footer {
 }
 html{
   background-color: orange;
+}
+h2 {
+  font-size: 40px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
+}
+h2 {
+  border-style: dashed;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: red;
+  border-radius: 10px 20px 30px 40px;    
+}
+#mainpic{
+  width: 30%;
+  height: 30%;
+  border-radius: 80%;
+  border: 3px solid blueviolet;
 }
