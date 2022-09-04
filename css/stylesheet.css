@@ -104,6 +104,11 @@ ol {
   font-family:'Times New Roman', Times, serif ;
 }
 
+#finallist {
+  font-family:'Times New Roman', Times, serif ;
+  color: black;
+}
+
 .icons {
   width: 8rem;
   margin: 1rem;
