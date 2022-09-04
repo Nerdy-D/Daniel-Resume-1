@@ -2,7 +2,7 @@ header {
   text-align: center;
   color: black;
   font-size: 15px;
-  background-color:grey;
+  background-color: orange;
   display: flex;
   flex-direction: column;
 }
@@ -10,8 +10,8 @@ header {
 #mainpic {
   border-radius: 50%;
   border: 1.5px solid black;
-  width: 10%;
-  height: 10%;
+  width: 11%;
+  height: 11%;
   margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +24,7 @@ header {
 }
 
 .aside {
-  background-color: #ccc;
+  background-color: lightgray;
   min-height: calc(100vh-100px);
   padding-right: 15px;
 }
@@ -38,6 +38,12 @@ header {
 h1 {
   font-size:30px;
   text-align: center;
+}
+
+#smallh1{
+  font-size: 100%;
+  text-align: center;
+  color: black;
 }
 
 h2 {
@@ -84,12 +90,18 @@ body {
 
 p {
   font-family:'Times New Roman', Times, serif ;
-  color: red;
+  color: black;
+  font-size: 110%;
+  text-align: justify;
 }
 
 ul {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
+}
+
+ol {
+  font-family:'Times New Roman', Times, serif ;
 }
 
 .icons {
